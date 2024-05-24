@@ -1,0 +1,508 @@
+.info {
+  background-color: rgba(55, 195, 143, 1);
+  padding: 0 120px 0;
+  line-height: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.info .time {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.info p {
+  color: white;
+}
+.info .contact {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+nav {
+  padding: 0 120px 0 105px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 30px -20px;
+  background-color: white;
+}
+nav img {
+  width: 20%;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding-left: 300px;
+  font-weight: 500;
+  align-items: center;
+  font-family: sans-serif;
+}
+nav ul a {
+  text-decoration: none;
+  color: rgba(139, 140, 142, 1);
+}
+nav .bars {
+  position: relative;
+  top: 18px;
+  font-size: 30px;
+}
+nav .active {
+  color: black;
+}
+
+.home {
+  margin-top: 108px;
+  padding: 0 0 0 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .left h1 {
+  color: black;
+  font-size: 50px;
+  margin-top: 70px;
+}
+.home .left p {
+  color: rgba(144, 151, 170, 1);
+  font-size: 18px;
+}
+.home .right {
+  width: 35%;
+  margin-top: 10px;
+}
+
+.right img {
+  width: 570px;
+  height: 500px;
+  float: right;
+  border-bottom-left-radius: 120px;
+}
+.home .schedule {
+  display: flex;
+  gap: 25px;
+}
+.home .schedule h5 {
+  color: rgba(139, 140, 141, 1);
+  font-size: 18px;
+}
+.home .schedule h5 i {
+  padding: 0 10px 0;
+}
+.home .schedule button {
+  top: 20px;
+  position: relative;
+  padding: 10px 20px;
+  background-color: rgba(55, 195, 143, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  gap: 50px;
+  margin-left: 130px;
+}
+.home .schedule button i{
+    color: #fff;
+    margin-left: 20px;
+}
+.schedule2{
+  gap: 80px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 30px -20px;
+padding-bottom: 10px;
+
+}
+.schedule2 .location{
+    display: flex;
+    gap: 20px;
+    border: 2px solid rgba(238, 237, 237, 1);
+    padding: 5px 5px 0 5px ;
+    border-radius: 3px;
+ 
+}
+.schedule2 .location .icon i{
+    background-color: rgba(55, 195, 143, 1);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 55%;
+    position: relative;
+    top: 3px;
+    
+}
+.schedule2 .location .text{
+    position: relative;
+    top: -4px;
+    line-height: 0px;
+    font-weight: 600;
+   
+}
+.schedule2 .time{
+  display: flex;
+  gap: 20px;
+  border: 2px solid rgba(238, 237, 237, 1);
+  padding: 5px 5px 0 5px ;
+  border-radius: 3px;
+
+}
+.schedule2  .time .icon i{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 55px;
+    border: solid 1px rgb(37, 36, 36);
+    position: relative;
+    top: 3px;
+   
+}
+.schedule2 .time .text{
+  position: relative;
+  top: -4px;
+  line-height: 0px;
+  font-weight: 600;
+ 
+}
+
+
+
+.schedule2 .Person{
+  display: flex;
+  gap: 20px;
+  border: 2px solid rgba(238, 237, 237, 1);
+  padding: 5px 5px 0 5px ;
+  border-radius: 3px;
+
+}
+.schedule2  .Person .icon i{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 55px;
+    border: solid 1px rgb(37, 36, 36);
+    position: relative;
+    top: 3px;
+   
+}
+.schedule2 .Person .text{
+  position: relative;
+  top: -4px;
+  line-height: 0px;
+  font-weight: 600;
+ 
+}
+.logos {
+  padding: 40px 120px ;
+  gap: 50px;
+ 
+
+}
+.logos img{
+  width: 100px;
+  height: 80px;
+}
+
+.services{
+  padding: 0 90px;
+}
+.services .services-info{
+  justify-content: space-between;
+  display: flex;
+  background-color: rgba(55, 195, 143, 1);
+  padding:  0 20px 10px 20px;
+  border-radius: 8px;
+  height: 300px;
+
+
+}
+.services .services-info h2{
+  color: #fff;
+  font-size: 40px;
+}
+.services .services-info p{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 61px;
+}
+.services .services-info button{
+  padding: 10px 15px;
+  background-color: white;
+  width: 170px;
+  height: 50px;
+  color: rgba(116, 125, 149, 1);
+  border: none;
+  border-radius: 5px;
+  margin-top: 61px;
+
+}
+
+
+
+.services-box {
+  padding: 0 107px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(1, 240px);
+  gap: 50px ;
+  position: relative;
+  top: -7rem;
+}
+.box-1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.services-box .box-1 i{
+  font-size: 25px;
+}
+.services-box .box-1 h2{
+  padding: 10px 0;
+}
+.services-box .box-1 p{
+  color: rgba(189, 193, 204, 1);
+}
+
+
+.vision{
+  padding: 0 120px;
+  display: flex;
+}
+
+.vision .vision-right {
+padding-left: 280px;
+width: 50%;
+
+}
+.vision .vision-right .icons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.vision .vision-right .icons i{
+  border: solid 2px  rgba(56, 195, 143, 1);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.vision .vision-right .icons p{
+  color: rgba(181, 182, 184, 1);
+}
+.vision .vision-right button{
+  background-color: rgba(56, 195, 143, 1);
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.vision-left .img{
+  width: 450px;
+  height: auto;
+  background-color: aliceblue;
+  border-top-left-radius: 80%;
+border-bottom-right-radius: 80%;
+border-bottom-left-radius: 80%;
+
+}
+.vision-left i{
+  background-color: rgba(255, 119, 91, 1);
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  top: -150px;
+  position: relative;
+}
+.vision-left .doctors{
+  width: 175px;
+  background-color: white;
+  position: relative;
+  top: -350px;
+  left: 355px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+.vision-left .doctors img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.vision-left .doctors p{
+  padding: 10px;
+  background-color: rgba(44, 169, 251, 1);
+  font-size: 14px;
+  border-radius: 50%;
+}
+.vision-left .doctors .images{
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+ 
+}
+.vision-left .doctors .one-hr{
+  background-color: rgba(255, 188, 173, 1);
+  width: 70px;
+  height: 3px;
+  float: left;
+  border: none;
+  border-radius: 10px;
+
+}
+.vision-left .doctors .two-hr{
+  background-color: rgba(255, 188, 173, 1);
+width: 50px;
+height: 3px;
+position: relative;
+top: 20px;
+left: -97px;
+border: none;
+  border-radius: 10px;
+}
+.dentist{
+  padding: 0 120px;
+  text-align: center;
+  margin-top: -100px;
+}
+.dentist .p{
+  border: 2px solid rgba(56, 195, 143, 1);
+  padding: 10px 18px;
+  display: inline-block;
+  border-radius: 25px;
+  color: rgb(41, 41, 41);
+}
+.dentist-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.dentist-images img {
+  background-color:#eaf6ff ;
+  padding: 50px 70px 20px 50px;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+.dentist .dentist-box-1{
+  margin: 0 50px;
+  position: relative;
+  top: -35px;
+  padding: 10px 55px;
+  line-height: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+.dentist-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow  .left{
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid  rgb(173, 173, 174) ;
+  font-size: 18px;
+}
+.arrow  .right{
+  padding: 10px;
+  border-radius: 50%;
+background-color: rgba(55, 195, 143, 1);
+border: 2px solid rgba(55, 195, 143, 1); 
+font-size: 18px;
+margin-left: 20px;
+
+}
+.client{
+  padding: 0 120px;
+  text-align: center;
+  margin-top: 50px;
+}
+.client-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.client-box .box-1{
+  width: 300px;
+  height: auto;
+  text-align: start;
+}
+.client-box .dr-name{
+  display: flex;
+  align-items: center;
+  line-height: 2px;
+  gap: 20px;
+  
+}
+.client-box .dr-name img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.client-box .dr-name h4{
+  color: rgba(23, 61, 97, 1);
+  font-size: 18px;
+}
+.client-box .client-p{
+  color: rgba(148, 155, 173, 1);
+  margin: 20px 0 50px 0;
+}
+.footer{
+  padding: 0 120px;
+  margin-top: 200px;
+}
+.sub-footer{
+  background-color: rgba(55, 195, 143, 1);
+  border-radius: 15px;
+  display: flex;
+  height: 300px;
+}
+.sub-footer .right{
+  padding: 20px 50px 20px 10px;
+  width:500px;
+padding-left: 200px;
+}
+.sub-footer .right h2{
+  color: white;
+  font-size: 35px;
+}
+.sub-footer .right p{
+  color: white;
+}
+.sub-footer .images{
+  display: flex;
+  position: relative;
+  top: -150px;
+  padding: 0 0 0 70px;
+  gap: 30px;
+}
+.sub-footer .images .img-1{
+  width: 200px;
+  height: 400px;
+  transform: rotate(-20deg);
+}
+.sub-footer .images .img-2{
+  width: 200px;
+  height: 400px;
+  transform: rotate(20deg);
+}
+.sub-footer .btn{
+  display: flex;
+  gap: 20px;
+}
+.sub-footer button{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 12px;
+  gap: 20px;
+  font-size: 20px;
+  line-height: 10px;
+}
+
